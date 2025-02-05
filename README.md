@@ -2,11 +2,15 @@
 
 # Samantha Spencer
 
-This page is all about me, where i've come from, what i've done and how i can be the best candidate for your next project. The page will be split into three sub pages containing a 'Home' with my basic about information, a career page setting out what i have done up to this point and a facts page with all of my credentials and more quirky information.
+This page is all about me, where i've come from, what i've done and how i can be the best candidate for your next project. The page will be split into three sub pages containing a 'Home' with my basic about information, a career page setting out what i have done up to this point and a facts page with all of my credentials, contact information and more quirky bits about me.
 
 ## User interactions
 
 I would like for all of these pages to link into one another as seamlessly as possible by utilising a nav bar to move from page to page and a footer to link to my socials and GitHub accounts. As this page is all about me most of the information will be interchangeable so I will ensure to add buttons to access other areas of the page for speed of navigation.
+
+## Wireframes of all three pages of the site:
+
+I have sketched up all three pages in mobile, tablet and monitor sizes so that there is a baseline to work from. The bulk of the text will come from my actual CV, so there will be no risk of plaguerism. I intend on using mostly AI created images alongside some images of myself.
 
 ## How to:
 
