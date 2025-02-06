@@ -17,6 +17,8 @@ I have sketched up all three pages in mobile, tablet and monitor sizes so that t
 ### Dependancies
 
 This will be for dependancies as i go through this project - complete as they come through.
+-Bootstrap.com has been used throughout the project to add items like a navbar, a carousel and a footer. The main reason for this is to mitigate the need for written Javascript to create a responsive site.
+-Microsoft Create was used to create AI images to utilize for the Home page and some content in other areas.
 
 ### Installing
 
