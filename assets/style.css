@@ -10,3 +10,10 @@
     --background-color: #d6cec7;
     --highlight-color: #2a5c8f;
 }
+
+/* Global Styles */
+
+body {
+    padding-top: 60px;
+}
+
