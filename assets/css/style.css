@@ -4,6 +4,8 @@
 
 /* CSS variables */
 :root {
+    --primary-font: 'PT Serif', serif;
+    --secondary-font: 'PT Sans', sans-serif;
     --primary-color: #c8653d;
     --secondary-color: #806957;
     --text-color: #571915;
@@ -14,6 +16,13 @@
 /* Global Styles */
 
 body {
-    padding-top: 60px;
+    padding-top: 56px;
+    font-family:var(--secondary-font) /* Pushes the content down to avoid the navbar */
 }
 
+h1,
+h2,
+h3 {
+    font-family: var(--primary-font);
+    color: var(--text-color);
+}
