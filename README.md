@@ -40,6 +40,8 @@ Break down in bullet point commands how to execute the program as a developer - 
 Add each bug as it occurs and the solution for it.
 Ensure to credit any solutions found through other developers or sites.
 
+*Found that the cards added from Bootstrap on my index.html page were overlapping when on an xl screen size. After doing some comparisons against my code for the Boardwalk-games project and browsing the documentation from Bootstrap i realised there was a style of max-width: 18rem; that had been added to the HTML. When removed the cards stopped overlapping and responded better on xl screens.
+
 ## Source for images and text
 
 Add all images with their alt and source in here.
