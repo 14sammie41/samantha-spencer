@@ -36,8 +36,36 @@ h3 {
     padding: 1rem;
 }
 
+/* Navbar */
+
+#navbar-toggler-icon {
+    color: var(--background-color);
+}
+
+/* Header */
+
+header {
+    padding-top: 1rem;
+}
+
+/* Card styles */
+
+.card {
+    margin-bottom: 1rem;
+}
+
 /* Footer */
 
 footer {
     background-color: var(--background-color);
+}
+
+#social {
+    padding-bottom: 2rem;
+    background-color: var(--secondary-color);
+}
+
+#social i {
+    font-size: 2rem;
+    color: var(--background-color);
 }
