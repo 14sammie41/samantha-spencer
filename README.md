@@ -12,6 +12,10 @@ I would like for all of these pages to link into one another as seamlessly as po
 
 I have sketched up all three pages in mobile, tablet and monitor sizes so that there is a baseline to work from. The bulk of the text will come from my actual CV, so there will be no risk of plaguerism. I intend on using mostly AI created images alongside some images of myself.
 
+[assets/images/home-page-wireframe.jpeg]
+[assets/images/career-page-wireframe.jpeg]
+[assets/images/contact-page-wireframe.jpeg]
+
 ## How to:
 
 ### Dependancies
