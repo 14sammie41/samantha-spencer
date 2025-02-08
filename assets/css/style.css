@@ -27,13 +27,8 @@ h3 {
     color: var(--text-color);
 }
 
-#navbar * {
-    background-color: var(--secondary-color);
-    color: var(--background-color)
-}
-
-#card-main {
-    padding: 1rem;
+.navbar * {
+    color: var(--background-color);
 }
 
 /* Navbar */
