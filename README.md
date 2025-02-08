@@ -21,10 +21,11 @@ I have sketched up all three pages in mobile, tablet and monitor sizes so that t
 ### Dependancies
 
 This will be for dependancies as i go through this project - complete as they come through.
--Bootstrap.com has been used throughout the project to add items like a navbar, a carousel and a footer. The main reason for this is to mitigate the need for written Javascript to create a responsive site.
--Microsoft Create was used to create AI images to utilize for the Home page and some content in other areas.
--IMGonline.com was used to pull the key colours out of the gaming.jpeg file. These colours were used to create the Root colours.
--Google Fonts used to import two font styles into the style.css file. Both fonts were attributed to the Root in CSS making the styles uniform accross the site.
+*Bootstrap.com has been used throughout the project to add items like a navbar, a carousel and a footer. The main reason for this is to mitigate the need for written Javascript to create a responsive site.
+*Microsoft Create was used to create AI images to utilize for the Home page and some content in other areas.
+*IMGonline.com was used to pull the key colours out of the gaming.jpeg file. These colours were used to create the Root colours.
+*Google Fonts used to import two font styles into the style.css file. Both fonts were attributed to the Root in CSS making the styles uniform accross the site.
+*Font Awesome used to import icons for social links in the footer section. Will most likely be used elsewhere too.
 
 ### Installing
 

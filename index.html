@@ -16,9 +16,12 @@
       crossorigin="anonymous"
     />
     <!-- Custom CSS link -->
-     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Font awesome link -->
-    <script src="https://kit.fontawesome.com/524dbc89dc.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/524dbc89dc.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Responsive Navbar from Bootstrap -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
@@ -56,108 +59,204 @@
   <body>
     <!-- Header with carousel -->
     <header id="header" class="container section">
-      <div class="row">
-        <div class="col-12 text-center text-xl-start">
+      <div class="row align-items-center">
+        <!-- Bootstrap carousel with AI generated images -->
+        <div class="col-12 col-xl-6">
+          <div
+            id="carouselExample"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/images/Retail.jpeg"
+                  class="d-block w-100"
+                  alt="Image of a red haired lady working in a retail setting"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/Gaming.jpeg"
+                  class="d-block w-100"
+                  alt="Image of a red haired lady playing video games"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/Hospitality.jpeg"
+                  class="d-block w-100"
+                  alt="Image of a red haired lady making cocktails behind a bar"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/Bumblebee.jpeg"
+                  class="d-block w-100"
+                  alt="Image of a bumblebee in a wood with sun coming through the trees"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/Office.jpeg"
+                  class="d-block w-100"
+                  alt="Image of a busy office environment"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-12 col-xl-6 text-center text-xl-start">
           <h1 class="display-3">Who am I?</h1>
           <p>
-            As a passionate customer services and sales worker, I am pleased to
-            be able to apply for this position, to which I hope to bring
-            experience and enthusiasm. Over the years I have been involved in
-            many community projects both locally and abroad. I pride myself on
-            being able to engage a team of people to work as one. My time in
-            retail has taught me about managing people at all levels. As a full
-            time manager I demonstrated considerable flexibility, prioritizing
-            the business at all times. As a member of this team I learnt how to
-            cope in a high pressure retail atmosphere. Fundraising taught me the
-            importance of giving back to both the community and the world in as
-            many ways as I can. My ambition to progress in everything I do means
-            that I set myself high standards. I am very confident when working
-            with people and have shown my ability to teach and train on many
-            occasions. The variety of things I have done and situations I have
-            been in not only in retail but also in restaurant, Fundraising and
-            office work means I have a very broad outlook on any career I’m in.
-            I’m very happy and willing to learn to gain new skills and reach the
-            best of my ability in everything I do.
+            As a passionate customer services and sales worker, I have built
+            this page from scratch to allow you to see my experience in a
+            dynamic way. Over the years I have been involved in many community
+            projects both locally and abroad. I pride myself on being able to
+            engage a team of people to work as one. My time in retail has taught
+            me about managing people at all levels. As a full time manager I
+            demonstrated considerable flexibility, prioritizing the business at
+            all times. As a member of this team I learnt how to cope in a high
+            pressure retail atmosphere. Fundraising taught me the importance of
+            giving back to both the community and the world in as many ways as I
+            can. My ambition to progress in everything I do means that I set
+            myself high standards. I am very confident when working with people
+            and have shown my ability to teach and train on many occasions. The
+            variety of things I have done and situations I have been in not only
+            in retail but also in restaurant, Fundraising and office work means
+            I have a very broad outlook on any career I’m in. I’m very happy and
+            willing to learn to gain new skills and reach the best of my ability
+            in everything I do.
           </p>
         </div>
       </div>
-      <!-- Bootstrap carousel with AI generated images -->
-      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="assets/images/Retail.jpeg"
-              class="d-block w-100"
-              alt="Image of a red haired lady working in a retail setting"
-            />
+    </header>
+    <main>
+      <!-- Cards taken from Bootstrap -->
+      <section id="cards" class="container section">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets/images/retail-card.jpeg"
+                class="card-img-top"
+                alt="A busy supermarket at Christmas"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Retail</h3>
+                <p class="card-text">
+                  During my time working for both Sainsburys, Argos and McColl's
+                  I had the opportunity to learn all about the processes of
+                  working in, and running, both a convenience store and a
+                  supermarket. Use the link below to learn more!
+                </p>
+                <a href="#" class="btn btn-primary">Learn more</a>
+              </div>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img
-              src="assets/images/Gaming.jpeg"
-              class="d-block w-100"
-              alt="Image of a red haired lady playing video games"
-            />
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets/images/hospitality-card.jpeg"
+                class="card-img-top"
+                alt="A busy bar during a six nations match"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Hospitality</h3>
+                <p class="card-text">
+                  Having started my working life working in Brewers Fayre, my experience in busy hospitality environments has taught me a great deal about managing customer expectations on the fly. Use the link below to learn more!
+                </p>
+                <a href="#" class="btn btn-primary">Learn more</a>
+              </div>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img
-              src="assets/images/Hospitality.jpeg"
-              class="d-block w-100"
-              alt="Image of a red haired lady making cocktails behind a bar"
-            />
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets/images/wfh-card.jpeg"
+                class="card-img-top"
+                alt="A red haired lady working at a desk with a laptop and a monitor"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Work From Home</h3>
+                <p class="card-text">
+                  More recently I have been working from home to allow me to do extra curricular activities. This has been extremely beneficial for me for both health and personal reasons.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img
-              src="assets/images/Bumblebee.jpeg"
-              class="d-block w-100"
-              alt="Image of a bumblebee in a wood with sun coming through the trees"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="assets/images/Office.jpeg"
-              class="d-block w-100"
-              alt="Image of a busy office environment"
-            />
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets/images/programming-card.jpeg"
+                class="card-img-top"
+                alt="A monitor showing multiple screens with programming software on them"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Programming Diploma</h3>
+                <p class="card-text">
+                  I am currently studying for a Level 5 Diploma in Web Application Development. I have always enjoyed working with technology and this felt like a natural transition to make a hobby a career.
+                </p>
+                <a href="#" class="btn btn-primary">Learn more</a>
+              </div>
+            </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </header>
-    <main></main>
+      </section>
+    </main>
     <!-- Footer for social media networking with mt-auto to stick to bottom of page-->
     <footer id="social" class="mt-auto">
       <div class="container section">
         <div class="row justify-content-center">
           <div class="col social-links">
-            <a href="https://www.linkedin.com/in/samantha-spencer-56521173/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Samantha Spencer's LinkedIn profile (opens in new tab)">
-            <i class="fa-brands fa-linkedin"></i></a>
-          </div>
-          <div class="col social-links">
-            <a href="https://github.com/14sammie41"
-            target="_blank"
-            rel="noopener"
-            aria-label="Samantha Spencer's GitHub profile (opens in new tab)">
-            <i class="fa-brands fa-square-github"></i></a>
+            <a
+              href="https://www.linkedin.com/in/samantha-spencer-56521173/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Samantha Spencer's LinkedIn profile (opens in new tab)"
+            >
+              <i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/14sammie41"
+              target="_blank"
+              rel="noopener"
+              aria-label="Samantha Spencer's GitHub profile (opens in new tab)"
+            >
+              <i class="fa-brands fa-square-github"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/samanthaelsiespencer/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Samantha Spencer's Facebook profile (opens in new tab)"
+            >
+              <i class="fa-brands fa-square-facebook"></i
+            ></a>
           </div>
         </div>
       </div>

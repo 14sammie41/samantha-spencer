@@ -26,3 +26,9 @@ h3 {
     font-family: var(--primary-font);
     color: var(--text-color);
 }
+
+/* Footer */
+
+footer {
+    background-color: var(--background-color);
+}
