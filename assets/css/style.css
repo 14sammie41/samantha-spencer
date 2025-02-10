@@ -50,6 +50,10 @@ header {
     margin-bottom: 1rem;
 }
 
+.card p {
+    max-height: 144px;
+}
+
 /* Footer */
 
 footer {

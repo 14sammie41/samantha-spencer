@@ -42,6 +42,7 @@ Ensure to credit any solutions found through other developers or sites.
 
 *Found that the cards added from Bootstrap on my index.html page were overlapping when on an xl screen size. After doing some comparisons against my code for the Boardwalk-games project and browsing the documentation from Bootstrap i realised there was a style of max-width: 18rem; that had been added to the HTML. When removed the cards stopped overlapping and responded better on xl screens.
 *Found that the padding on the navbar was creating a banner effect on top and bottom in the wrong colour. Attempted initially to fix it by re-writing the HTML for the navbar ensuring i hadn't missed anything, this did not work. Then i looked on Chrome DevTools to make sure there weren't any pieces of CSS over-riding my CSS, confirmed there wasn't and finally looked at the bottom of Chrome DevTools to find there was basic padding of 8px on top and bottom. Adjusted the padding on CSS to 0 with my own styles.
+*Used horizontal cards on the careers page to change it up, found that the amount of text i wanted to put in was overflowing on smaller screen sizes. 
 
 ## Source for images and text
 
