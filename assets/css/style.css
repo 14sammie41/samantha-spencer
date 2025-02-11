@@ -79,27 +79,29 @@ footer {
 
 /* Media Queries */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
     /* Make all info cards the same height */
     .card-info {
-        min-height: 606px;
+        min-height: 598px;
     }
 }
 
 @media screen and (min-width: 992px) {
     /* Make all info cards the same height */
     .card-info {
-        min-height: 695px;
+        min-height: 696px;
     }
     /* Make career cards stay horizontal at different screen sizes */
     .career-card {
-        min-width: 546px;
+        max-height: 300px;
     }
+    .img-fluid {
+        max-height: 300px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     /* Make all info cards the same height */
     .card-info {
-        min-height: 598px;
+        min-height: 606px;
     }
 }
