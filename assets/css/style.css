@@ -30,12 +30,13 @@ h4 {
 
 /* Navbar */
 
-#navbar-toggler-icon {
-    color: var(--background-color);
-}
-
 .navbar {
     background-color: var(--secondary-color) !important; /* !important overrides the default Bootstrap styles */
+}
+
+.navbar-brand,
+.navbar-toggler,
+.nav-link {
     color: var(--background-color);
 }
 
