@@ -52,7 +52,12 @@ header {
 }
 
 .card p {
-    max-height: 144px;
+    padding-bottom: 1rem;
+}
+
+/* Buttons */
+
+.btn-primary {
 }
 
 /* Footer */
@@ -69,4 +74,27 @@ footer {
 #social i {
     font-size: 2rem;
     color: var(--background-color);
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 1200px) {
+    /* Make all info cards the same height */
+    .card-info {
+        min-height: 606px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* Make all info cards the same height */
+    .card-info {
+        min-height: 695px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /* Make all info cards the same height */
+    .card-info {
+        min-height: 598px;
+    }
 }
