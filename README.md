@@ -26,6 +26,7 @@ This will be for dependancies as i go through this project - complete as they co
 *IMGonline.com was used to pull the key colours out of the gaming.jpeg file. These colours were used to create the Root colours.
 *Google Fonts used to import two font styles into the style.css file. Both fonts were attributed to the Root in CSS making the styles uniform accross the site.
 *Font Awesome used to import icons for social links in the footer section. Will most likely be used elsewhere too.
+*Favicon.io used to create a simple favicon with the correct colours and fonts as used throughout the site. Then linked to each page.
 
 ### Installing
 
