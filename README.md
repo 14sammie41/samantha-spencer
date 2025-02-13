@@ -12,9 +12,9 @@ I would like for all of these pages to link into one another as seamlessly as po
 
 I have sketched up all three pages in mobile, tablet and monitor sizes so that there is a baseline to work from. The bulk of the text will come from my actual CV, so there will be no risk of plaguerism. I intend on using mostly AI created images alongside some images of myself.
 
-[assets/images/home-page-wireframe.jpeg]
-[assets/images/career-page-wireframe.jpeg]
-[assets/images/contact-page-wireframe.jpeg]
+![wireframe of my homepage](home-page-wireframe.png)
+![Wireframe of my career page](career-page-wireframe.png)
+![Wireframe of my contact page](contact-page-wireframe.png)
 
 ## How to:
 
@@ -27,6 +27,7 @@ This will be for dependancies as i go through this project - complete as they co
 *Google Fonts used to import two font styles into the style.css file. Both fonts were attributed to the Root in CSS making the styles uniform accross the site.
 *Font Awesome used to import icons for social links in the footer section. Will most likely be used elsewhere too.
 *Favicon.io used to create a simple favicon with the correct colours and fonts as used throughout the site. Then linked to each page.
+*iloveimg.com was used to compress all of my images to optimise page load up.
 
 ### Installing
 
@@ -43,7 +44,7 @@ Ensure to credit any solutions found through other developers or sites.
 
 *Found that the cards added from Bootstrap on my index.html page were overlapping when on an xl screen size. After doing some comparisons against my code for the Boardwalk-games project and browsing the documentation from Bootstrap i realised there was a style of max-width: 18rem; that had been added to the HTML. When removed the cards stopped overlapping and responded better on xl screens.
 *Found that the padding on the navbar was creating a banner effect on top and bottom in the wrong colour. Attempted initially to fix it by re-writing the HTML for the navbar ensuring i hadn't missed anything, this did not work. Then i looked on Chrome DevTools to make sure there weren't any pieces of CSS over-riding my CSS, confirmed there wasn't and finally looked at the bottom of Chrome DevTools to find there was basic padding of 8px on top and bottom. Adjusted the padding on CSS to 0 with my own styles.
-*Used horizontal cards on the careers page to change it up, found that the amount of text i wanted to put in was overflowing on smaller screen sizes. 
+*Used horizontal cards on the careers page to change it up, found that the amount of text i wanted to put in was overflowing on smaller screen sizes. Having discussed with my fellow class mates about different ways to resolve the problem. We decided the most aesthtically pleasing option was to use an overflow-scroll rule on screen sizes over 992px so the content is scrollable rather than overflowing the card. On screens under 992px i used grid flex box rules with media queries to force the boxes to stay horizontal until the mobile screen size at which point the images sit on top of the text rather than next to.
 
 ## Source for images and text
 
