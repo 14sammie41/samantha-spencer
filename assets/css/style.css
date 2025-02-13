@@ -58,7 +58,16 @@ header {
 
 /* Buttons */
 
-.btn-primary {
+.custom-button-filled {
+    border: solid 2px var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+.custom-button-filled:hover {
+    background-color: var(--text-color);
+    border: solid 2px var(--text-color);
+    color: var(--background-color);
 }
 
 /* Footer */
