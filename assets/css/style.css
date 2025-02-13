@@ -70,6 +70,12 @@ header {
     color: var(--background-color);
 }
 
+/* contact table styles */
+
+.contact-table {
+    margin: 1rem;
+}
+
 /* Footer */
 
 footer {
