@@ -21,14 +21,14 @@ I have sketched up all three pages in mobile, tablet and monitor sizes so that t
 ### Dependancies
 
 This will be for dependancies as i go through this project - complete as they come through.
-*[Bootstrap](https://getbootstrap.com/) has been used throughout the project to add items like a navbar, a carousel and a footer. The main reason for this is to mitigate the need for written Javascript to create a responsive site.
-*[Microsoft Create](https://create.microsoft.com/en-us/features/ai-image-generator) was used to create AI images to utilize for the Home page and some content in other areas.
-*[IMG Online](https://www.imgonline.com.ua/eng/get-dominant-colors.php) was used to pull the key colours out of the gaming.jpeg file. These colours were used to create the Root colours of the page and I made sure that they were readable colours on all screens for accessability.
-*[Google Fonts](https://fonts.google.com/) used to import two font styles into the style.css file. Both fonts were attributed to the Root in CSS making the styles uniform accross the site.
-*[Font Awesome](https://fontawesome.com/) used to import icons for social links in the footer section. Will most likely be used elsewhere too.
-*[Favicon.io](https://favicon.io/#google_vignette) used to create a simple favicon with the correct colours and fonts as used throughout the site. Then linked to each page.
-*[IloveIMG.com](https://www.iloveimg.com/) was used to compress all of my images to optimise page load up.
-*![My CV](assets/documents/Copy of CV-2024.docx.pdf)
++[Bootstrap](https://getbootstrap.com/) has been used throughout the project to add items like a navbar, a carousel and a footer. The main reason for this is to mitigate the need for written Javascript to create a responsive site.
++[Microsoft Create](https://create.microsoft.com/en-us/features/ai-image-generator) was used to create AI images to utilize for the Home page and some content in other areas.
++[IMG Online](https://www.imgonline.com.ua/eng/get-dominant-colors.php) was used to pull the key colours out of the gaming.jpeg file. These colours were used to create the Root colours of the page and I made sure that they were readable colours on all screens for accessability.
++[Google Fonts](https://fonts.google.com/) used to import two font styles into the style.css file. Both fonts were attributed to the Root in CSS making the styles uniform accross the site.
++[Font Awesome](https://fontawesome.com/) used to import icons for social links in the footer section. Will most likely be used elsewhere too.
++[Favicon.io](https://favicon.io/#google_vignette) used to create a simple favicon with the correct colours and fonts as used throughout the site. Then linked to each page.
++[IloveIMG.com](https://www.iloveimg.com/) was used to compress all of my images to optimise page load up.
++![My CV](assets/documents/Copy of CV-2024.docx.pdf)
 
 ### Installing
 
