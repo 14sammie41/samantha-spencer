@@ -1,8 +1,8 @@
-/* Google fonts import */
+/* Google fonts import as attributed in README file */
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/* CSS variables */
+/* CSS variables - colours pulled from imgonline.com and fonts from Google fonts - attributed on README file */
 :root {
     --primary-font: 'PT Serif', serif;
     --secondary-font: 'PT Sans', sans-serif;
@@ -16,8 +16,9 @@
 /* Global Styles */
 
 body {
+    /* Pushes the content down to avoid the navbar */
     padding-top: 56px;
-    font-family:var(--secondary-font) /* Pushes the content down to avoid the navbar */
+    font-family:var(--secondary-font) 
 }
 
 h1,
@@ -58,6 +59,7 @@ header {
 
 /* Buttons */
 
+    /* Button styling code copied and edited from Boardwalk Games to suit user needs */
 .custom-button-filled {
     border: solid 2px var(--primary-color);
     background-color: var(--primary-color);
@@ -75,7 +77,7 @@ header {
     padding: 1rem;
    }
 
-/* contact table styles */
+/* contact table style for breathing space on page */
 
 .contact-table {
     margin: 1rem;
