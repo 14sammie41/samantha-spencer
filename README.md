@@ -101,7 +101,12 @@ As i have been testing most aspects as I write the code for the site, i am hopin
 + The final tests for the page was the ensure the social links take you to linkedIn, GitHub and Facebook respectively, which they do.
 
 ### Testing with validators:
-+ 
++ First validator used was [W3Schools HMTL validator](https://validator.w3.org/#validate_by_input). Expecting possible some missed slashes, but that should be all. 
+    + index.html shows no errors
+    + career.html shows no errors
+    + contact.html shows five errors: one because my CV file has spaces in the name; one because i have a duplicate ID of 'enquiry' with a warning in relation to it; two because i forgot to change the 'aria-describedby' attribute on the form element.
+        + All the above fixed: my CV renamed to remove spaces and replace with '-'; Edited the ID of the textarea section of the form to 'enquiry1' to not conflict with the first instance of 'enquiry'; chnaged the 'aria-describedby' attribute on the name and email fields to match the element.
+        + 
 -Testing
 -Result
 -Fix
