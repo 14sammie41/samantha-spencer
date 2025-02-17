@@ -31,19 +31,9 @@ This will be for dependancies as i go through this project - complete as they co
 + ![My CV](assets/documents/Copy of CV-2024.docx.pdf) This is my actual live CV, I have taken text from here and edited it accordingly.
 + 
 
-### Installing
-
-Deployment, step-by-step guide:
-+ 
-
-### Executing program
-
-Break down in bullet point commands how to execute the program as a developer - add at the end of the project
-
 ## Bug problems and solutions
 
-Add each bug as it occurs and the solution for it.
-Ensure to credit any solutions found through other developers or sites.
+These bugs were found as I was wrting the code, not whilst testing, hence being at this point in the README file.
 
 + Found that the cards added from Bootstrap on my index.html page were overlapping when on an xl screen size. After doing some comparisons against my code for the Boardwalk-games project and browsing the documentation from Bootstrap i realised there was a style of max-width: 18rem; that had been added to the HTML. When removed the cards stopped overlapping and responded better on xl screens.
 + Found that the padding on the navbar was creating a banner effect on top and bottom in the wrong colour. Attempted initially to fix it by re-writing the HTML for the navbar ensuring i hadn't missed anything, this did not work. Then i looked on Chrome DevTools to make sure there weren't any pieces of CSS over-riding my CSS, confirmed there wasn't and finally looked at the bottom of Chrome DevTools to find there was basic padding of 8px on top and bottom. Adjusted the padding on CSS to 0 with my own styles.
@@ -76,15 +66,42 @@ All images below have been compressed using iloveimg.com to help with load speed
 
 ## Deployment process
 
-Step-by-step guide to deploying the project if it was to be cloned
+Running the project locally:
+1. Ensure you have a GitHub account [Create one here](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github).
+2. Use Google Chrome as the best browser for this deployment.
+3. Install VSCode to your computer or open the browser version [here](https://vscode.dev/).
+4. click the 'Open Remote Repository' button on the home page to clone and or edit as you wish.
+
+To do the above you may need to follow these steps also:
+1. Open the repository in GitHub [here](https://github.com/14sammie41/samantha-spencer)
+2. Under the name, click 'clone or download'.
+3. Once in the clone section copy the HTTP clone URL for the repository.
+4. In the local IDE of your choice, open the terminal.
+5. Change the current working directory to wherever you want it to be made.
+6. Type `git clone`, and then paste the URL you copied in step 3.
+
+Deployment, step-by-step guide:
++ In GitHub, first ensure all work is commited and pushed, then go to the settings tab on GitHub, then the Pages section on the left hand navigation.
++ Once in the Pages section on GitHub change the branch drop down to 'Main' and then click the save option.
++ Now go back to the code section of GitHub and click the deployment link on the right hand side. (You may need to refresh the page to see the deployment link)
++ Once in the deployment page on GitHub click on the provided link and it will open up the deployed project.
 
 ## Testing
 
-This section should be large so if it is too large add a new read only file and use that for this task and then link into this page for ease of use.
+As i have been testing most aspects as I write the code for the site, i am hoping this is not going to be too much.
 
--Expected
+### Testing as a user for navigation purposes:
++ The home page is clear and responsive on all screen sizes. Also ensured all breakpoints are responsive without any glaring issues.
++ Followed naturally through to the Career page on mobile size screen and noticed the images in the cards have the corners cut on the wrong sides when stacked. Having read all of the documentation for cards and for borders in [Bootstrap](https://getbootstrap.com/docs/5.3/components/card/) unfortunately I have come to the conclusion that hvaing already adjusted the cards further than Bootstrap recommends there isn't yet the ability to make these aspects responsive.
++ At all other screen sizes i am happy with the responsiveness and layout on the careers page. The only other caviat with using horizontal cards from Bootstrap is that to make the images and text look cohesive on all screen sizes (mostly larger) i had to add a scroll option within the cards to allow the cards to stay at the same size. I did this using a media query and a scroll attribute.
++ Having then tested the Contact page on all screen sizes, i am happy with how it responds on changing sizes especially how well the table responds to not lose the layout. 
++ I then tested the form to contact with to ensure all the elements responded correctly. As the 'email' option is the only one with a specific type element i tried using 'samantha.spencer.com' and it responded with an 'attention' note stating it requires an @ symbol to be an email address. I also ensured when a form element is left empty it doesn't allow you to submit said form.
++ Final two tests for the contact page were to check the 'Samantha's CV' button to which i am happy to say it automatically dowloads as a Chrome PDF file. Then when correctly filled in the 'Let's Go' button on the form takes you to the success.html page.
++ The success.html page shows well on all screen sizes (its very simple so not a lot of changes) and the 'return to homepage' button does exactly that!
++ The final tests for the page was the ensure the social links take you to linkedIn, GitHub and Facebook respectively, which they do.
+
+### Testing with validators:
++ 
 -Testing
 -Result
 -Fix
-
-Link up to bug fixes here also.
